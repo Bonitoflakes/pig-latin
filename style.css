@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    /* max-width: 60vw; */
+}
+h1{
+    padding: 2rem;
+    text-align: center;
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+}
+.translation{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    max-width: 60vw;
+    padding: 1rem;
+}
+p{
+    color: purple;
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+textarea{
+    margin: 2rem;
+}
+.translate{
+    color: purple;
+    background-color: pink;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.translate:hover{
+    transform: translateY(2px);
+    box-shadow: 1px 1px 10px purple;
+}
+.output{
+    border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+     purple
+    ) 1 100%;
+    padding: 2rem;
+    margin: 1rem;
+}
