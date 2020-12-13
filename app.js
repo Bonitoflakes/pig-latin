@@ -33,7 +33,11 @@ function displayOutput() {
             console.log(data)
             return data;
         })
-        .then(data => bananaOutput.innerText = data.contents.translated)
+        .then(data =>{
+             bananaOutput.innerText = data.contents.translated
+                bananaOutput.classList.add("mystyle");
+
+            })
         .catch(errorHandler)
 
 
