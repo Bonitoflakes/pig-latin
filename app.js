@@ -34,8 +34,8 @@ function displayOutput() {
             return data;
         })
         .then(data =>{
+            bananaOutput.classList.add("mystyle");
              bananaOutput.innerText = data.contents.translated
-                bananaOutput.classList.add("mystyle");
 
             })
         .catch(errorHandler)
